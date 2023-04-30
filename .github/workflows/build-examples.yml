@@ -1,0 +1,35 @@
+name: Build Examples
+
+on:
+  push:
+    branches: [master, develop]
+  pull_request:
+    branches: [master, develop]
+
+jobs:
+  build:
+    name: Build Example
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    # TODO: Setup Environment Variables in Repository Settings
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v3
+      - name: 📦 Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: 📦 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: "pnpm"
+      - name: 📦 Install Dependencies
+        run: pnpm install
+      - name: 📦 Build Example
+        run: pnpm run build
+      # - name: 🧪 Test Example
+      #   run: pnpm run test

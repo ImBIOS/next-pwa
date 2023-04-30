@@ -1,0 +1,45 @@
+# Introduction
+
+Welcome to the Next.js PWA module, a customizable and easy-to-use solution for creating Progressive Web Apps (PWA) with Next.js. This module is designed to help developers convert their Next.js applications into fully functional PWAs with minimal effort. This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/) and other good stuff. With the Next.js PWA module, you can enjoy the benefits of a PWA such as offline access, push notifications, and home screen installation.
+
+This module is built on top of the service worker API and provides a range of features to optimize your application's performance, improve user engagement, and enhance the user experience. The module is designed to work seamlessly with Next.js, which means you can easily integrate it into your existing Next.js projects.
+
+Getting started with the Next.js PWA module is straightforward, and this documentation will guide you through the process of setting up and configuring your PWA. You will learn how to install the module, configure your service worker, and customize your PWA's features to suit your application's needs.
+
+Whether you are new to PWAs or an experienced developer, the Next.js PWA module is a powerful tool that can help you take your application to the next level. Let's get started!
+
+## What is `@imbios/next-pwa`?
+
+@imbios/next-pwa is a Next.js module that enables you to convert your Next.js application into a Progressive Web App (PWA) with ease. This module is built on top of the service worker API and provides a range of features to optimize your application's performance, improve user engagement, and enhance the user experience.
+
+With @imbios/next-pwa, you can enjoy all the benefits of a PWA, including offline access, push notifications, and home screen installation. This module is designed to work seamlessly with Next.js, which means you can easily integrate it into your existing Next.js projects.
+
+The @imbios/next-pwa module provides a simple and flexible API that allows you to customize your PWA's features to suit your application's needs. You can configure your service worker, add support for offline caching, customize your manifest, and much more.
+
+Whether you are building a new application or want to convert an existing Next.js application into a PWA, @imbios/next-pwa is a powerful tool that can help you achieve your goals with minimal effort.
+
+## Features
+
+- 🚀 Next.js appDir support
+- 0️⃣ Zero config for registering and generating service worker
+- ✨ Optimized precache and runtime cache
+- 💯 Maximize lighthouse score
+- 🎈 Easy to understand examples
+- 📴 Completely offline support with fallbacks [example](https://github.com/ImBIOS/next-pwa/tree/master/examples/offline-fallback-v2) 🆕
+- 📦 Use [workbox](https://developer.chrome.com/docs/workbox/) and [workbox-window](https://developer.chrome.com/docs/workbox/modules/workbox-window) v6
+- 🍪 Work with cookies out of the box
+- 🔉 Default range requests for audios and videos
+- ☕ No custom server needed for Next.js 9+ [example](https://github.com/ImBIOS/next-pwa/tree/master/examples/next-13)
+- 🔧 Handle PWA lifecycle events opt-in [example](https://github.com/ImBIOS/next-pwa/tree/master/examples/lifecycle)
+- 📐 Custom worker to run extra code with code splitting and **typescript** support [example](https://github.com/ImBIOS/next-pwa/tree/master/examples/custom-ts-worker)
+- 📜 [Public environment variables](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser) available in custom worker as usual
+- 🐞 Debug service worker with confidence in development mode without caching
+- 🌏 Internationalization (a.k.a I18N) with `next-i18next` [example](https://github.com/ImBIOS/next-pwa/tree/master/examples/next-i18next)
+- 🛠 Configurable by the same [workbox configuration options](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin) for [GenerateSW](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/#generatesw-plugin) and [InjectManifest](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/#injectmanifest-plugin)
+- 🚀 Spin up a [GitPod](https://gitpod.io/#https://github.com/ImBIOS/next-pwa/) and try out examples in rocket speed
+- ⚡ Support [blitz.js](https://blitzjs.com/) (simply add to `blitz.config.js`)
+- 🔩 (Experimental) precaching `.module.js` when `next.config.js` has `experimental.modern` set to `true`
+
+> **NOTE 1** - `@imbios/next-pwa` should only work with `next.js` 9.1+, and static files should only be served through `public` directory. This will make things simpler.
+>
+> **NOTE 2** - If you encounter error `TypeError: Cannot read property **'javascript' of undefined**` during build, [please consider upgrade to webpack5 in `next.config.js`](https://github.com/shadowwalker/next-pwa/issues/198#issuecomment-817205700).

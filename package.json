@@ -1,0 +1,55 @@
+{
+  "name": "next-pwa-project",
+  "version": "1.0.0",
+  "author": "Imamuzzaki Abu Salam <imamuzzaki@gmail.com>",
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.1",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
+    "concurrently": "8.0.1",
+    "config-prettier": "workspace:*",
+    "dotenv-cli": "7.2.1",
+    "eslint": "8.30.0",
+    "eslint-config-custom": "workspace:*",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.2",
+    "prettier": "2.8.1",
+    "syncpack": "9.8.6",
+    "turbo": "1.9.3"
+  },
+  "engines": {
+    "pnpm": "8",
+    "node": ">=16.0.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@8.3.1",
+  "private": true,
+  "repository": "https://github.com/ImBIOS/next-pwa",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "dotenv -- turbo run build",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "lint": "turbo run lint -- --fix && pnpm run lint:packages",
+    "lint:packages": "concurrently \"pnpm:lint:packages:*\"",
+    "lint:packages:semver": "syncpack lint-semver-ranges",
+    "lint:packages:mismatches": "syncpack fix-mismatches",
+    "format": "prettier --write .",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --ext js,jsx,ts,tsx --quiet --fix --",
+      "prettier --write"
+    ],
+    "*.{md,mdx,mjs,yml,yaml,css}": [
+      "prettier --write"
+    ]
+  }
+}

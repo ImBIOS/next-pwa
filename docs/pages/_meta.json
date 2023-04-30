@@ -1,0 +1,18 @@
+{
+  "index": "Introduction",
+  "get-started": "Get Started",
+  "usage": "Usage",
+  "offline-fallbacks": "Offline Fallbacks",
+  "configuration": "Configuration",
+  "tips": "Tips",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/imamdev_",
+    "newWindow": true
+  }
+}

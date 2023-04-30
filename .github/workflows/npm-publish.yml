@@ -1,0 +1,59 @@
+name: Node.js Package
+
+on:
+  release:
+    types: [created]
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  build:
+    name: Build
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v3
+      - name: 📦 Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: 📦 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: "pnpm"
+      - name: 📦 Install Dependencies
+        run: pnpm install
+      # - run: pnpm test
+
+  publish-npm:
+    name: Publish to NPM
+    timeout-minutes: 15
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v3
+      - name: 📦 Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: 📦 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          cache: "pnpm"
+          node-version-file: .node-version
+          registry-url: https://registry.npmjs.org/
+          scope: "@imbios"
+      - name: 📦 Install Dependencies
+        run: pnpm install
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          # This expects you to have a script called publish-packages which does a build for your packages and calls changeset publish
+          publish: pnpm publish-packages
+        env:
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{secrets.NPM_AUTOMATION_TOKEN}}

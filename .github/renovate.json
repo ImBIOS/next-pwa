@@ -1,0 +1,40 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "branchPrefix": "renovate/",
+  "baseBranches": ["master"],
+  "assigneesFromCodeOwners": true,
+  "packageRules": [
+    {
+      "groupName": "lint",
+      "matchPackageNames": [
+        "@next/eslint-plugin-next",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "eslint",
+        "eslint-config-prettier",
+        "eslint-plugin-import",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-tailwindcss",
+        "eslint-plugin-typescript-sort-keys",
+        "eslint-plugin-unicorn",
+        "prettier",
+        "prettier-plugin-tailwindcss"
+      ]
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "automerge": true,
+      "labels": ["dependencies"]
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "labels": ["dependencies", "breaking"]
+    }
+  ]
+}

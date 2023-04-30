@@ -1,0 +1,33 @@
+module.exports = {
+  customTypes: [],
+  dependencyTypes: [
+    "dev",
+    "overrides",
+    "peer",
+    "pnpmOverrides",
+    "prod",
+    "resolutions",
+    "workspace",
+  ],
+  filter: ".",
+  indent: "  ",
+  semverGroups: [],
+  semverRange: "",
+  sortAz: [
+    "contributors",
+    "dependencies",
+    "devDependencies",
+    "keywords",
+    "peerDependencies",
+    "resolutions",
+    "scripts",
+  ],
+  sortFirst: ["name", "description", "version", "author"],
+  source: [
+    "package.json",
+    "docs/package.json",
+    "examples/*/package.json",
+    "packages/*/package.json",
+  ],
+  versionGroups: [],
+};

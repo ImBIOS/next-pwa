@@ -1,0 +1,23 @@
+{
+  "name": "example-cache-on-front-end-nav",
+  "version": "1.0.0",
+  "dependencies": {
+    "@imbios/next-pwa": "latest",
+    "babel-loader": "8.2.5",
+    "next": "13.3.2-canary.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.3.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  }
+}

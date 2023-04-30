@@ -1,0 +1,25 @@
+{
+  "name": "example-minimal",
+  "version": "1.0.0",
+  "dependencies": {
+    "@imbios/next-pwa": "latest",
+    "cross-env": "7.0.3",
+    "fastify": "3.29.0",
+    "fastify-compress": "4.1.0",
+    "next": "13.3.2-canary.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.3.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "node ./index.js",
+    "start": "cross-env NODE_ENV=production node ./index.js"
+  }
+}

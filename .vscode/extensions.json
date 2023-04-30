@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "nhoizey.gremlins",
+    "wix.vscode-import-cost",
+    "esbenp.prettier-vscode",
+    "unifiedjs.vscode-mdx"
+  ]
+}
