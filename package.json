@@ -10,11 +10,11 @@
     "concurrently": "8.0.1",
     "config-prettier": "workspace:*",
     "dotenv-cli": "7.2.1",
-    "eslint": "8.30.0",
+    "eslint": "8.39.0",
     "eslint-config-custom": "workspace:*",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
-    "prettier": "2.8.1",
+    "prettier": "2.8.8",
     "syncpack": "9.8.6",
     "turbo": "1.9.3"
   },
