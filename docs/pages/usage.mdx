@@ -101,6 +101,8 @@ Create a `manifest.json` file in your `public` folder:
 
 ## Step 3: Add Head Meta (Example)
 
+### `page` Directory
+
 Add the following into `_document.jsx` or `_app.tsx`, in `<Head>`:
 
 ```html filename="_document.jsx" copy
@@ -201,28 +203,44 @@ let a = 1;
 console.log(a);
 ```
 
-## Component
+### `app` Directory
 
-import { useState } from "react";
+```ts filename="page.tsx" {8-37} copy
+import { Metadata } from "next";
 
-{/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+/** Add your relevant code here for the issue to reproduce */
+export default function Home() {
+  return <h1>PWA 💖 Next.js</h1>;
+}
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>
-        Clicked {count} times
-      </button>
-    </div>
-  );
+const APP_NAME = "next-pwa example";
+const APP_DESCRIPTION = "This is an example of using next-pwa plugin";
+
+export const metadata: Metadata = {
+  title: "PWA 💖 Next.js",
+  description: APP_DESCRIPTION,
+  twitter: {
+    card: "summary_large_image",
+    creator: "@imamdev_",
+    images: "https://example.com/og.png",
+  },
+  applicationName: APP_NAME,
+  appleWebApp: {
+    capable: true,
+    title: APP_NAME,
+    statusBarStyle: "default",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  themeColor: "#FFFFFF",
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+  manifest: "/manifest.json",
+  icons: [
+    { rel: "apple-touch-icon", url: "/icons/apple-touch-icon.png" },
+    { rel: "shortcut icon", url: "/favicon.ico" },
+  ],
+  keywords: ["nextjs", "pwa", "next-pwa"],
 };
-
-<Counter />
-
-## External Component
-
-import Counters from "../components/counters";
-
-<Counters />
+```
