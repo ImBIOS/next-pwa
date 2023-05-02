@@ -8,6 +8,9 @@
     {
       "groupName": "lint",
       "matchPackageNames": [
+        "eslint-config-next",
+        "eslint-config-prettier",
+        "eslint-config-turbo",
         "@next/eslint-plugin-next",
         "@typescript-eslint/eslint-plugin",
         "@typescript-eslint/parser",
