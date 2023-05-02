@@ -10,7 +10,6 @@ jobs:
   publish-npm:
     name: Publish to NPM
     timeout-minutes: 15
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: 📂 Checkout
