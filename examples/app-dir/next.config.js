@@ -1,13 +1,11 @@
-const withPWA = require('@imbios/next-pwa')({
-  dest: 'public',
+const withPWA = require("@imbios/next-pwa")({
+  dest: "public",
 });
 
-/** @type {import('next').NextConfig} */
-const nextConfig = withPWA({
-  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
+/** @type {import("next").NextConfig} */
+module.exports = withPWA({
+  reactStrictMode: true,
   experimental: {
     appDir: true,
   },
 });
-
-module.exports = nextConfig;
