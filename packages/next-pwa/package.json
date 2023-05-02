@@ -4,10 +4,10 @@
   "version": "1.1.1",
   "author": "Imamuzzaki Abu Salam <imamuzzaki@gmail.com>",
   "dependencies": {
-    "babel-loader": "8.2.5",
+    "babel-loader": "8.3.0",
     "clean-webpack-plugin": "4.0.0",
     "globby": "11.0.4",
-    "terser-webpack-plugin": "5.3.3",
+    "terser-webpack-plugin": "5.3.7",
     "workbox-webpack-plugin": "6.5.4",
     "workbox-window": "6.5.4"
   },
@@ -27,6 +27,6 @@
     "next": ">=9.0.0"
   },
   "resolutions": {
-    "@typescript-eslint/eslint-plugin": "5.59.1"
+    "@typescript-eslint/eslint-plugin": "5.59.2"
   }
 }
