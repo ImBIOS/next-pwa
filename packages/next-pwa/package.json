@@ -1,7 +1,7 @@
 {
   "name": "@imbios/next-pwa",
   "description": "Next.js with PWA, powered by workbox.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Imamuzzaki Abu Salam <imamuzzaki@gmail.com>",
   "dependencies": {
     "babel-loader": "8.2.5",
