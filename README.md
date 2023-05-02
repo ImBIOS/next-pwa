@@ -4,6 +4,8 @@ This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/) 
 
 ![size](https://img.shields.io/bundlephobia/minzip/@imbios/next-pwa.svg) ![dependencies](https://img.shields.io/librariesio/release/npm/@imbios/next-pwa) ![downloads](https://img.shields.io/npm/dw/@imbios/next-pwa.svg) ![license](https://img.shields.io/npm/l/@imbios/next-pwa.svg)
 
+Please ⭐️ star this repo if you find it useful 👆
+
 <!-- 👋 Share your awesome PWA project 👉 [here](https://github.com/shadowwalker/next-pwa/discussions/206) -->
 
 ## Features
