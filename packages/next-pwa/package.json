@@ -12,7 +12,7 @@
     "workbox-window": "6.5.4"
   },
   "devDependencies": {
-    "webpack": "5.76.0"
+    "webpack": "5.81.0"
   },
   "keywords": [
     "nextjs",
