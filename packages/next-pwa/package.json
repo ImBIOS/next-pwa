@@ -7,12 +7,12 @@
     "babel-loader": "8.3.0",
     "clean-webpack-plugin": "4.0.0",
     "globby": "11.0.4",
-    "terser-webpack-plugin": "5.3.8",
+    "terser-webpack-plugin": "5.3.9",
     "workbox-webpack-plugin": "6.5.4",
     "workbox-window": "6.5.4"
   },
   "devDependencies": {
-    "webpack": "5.83.0"
+    "webpack": "5.83.1"
   },
   "keywords": [
     "nextjs",
