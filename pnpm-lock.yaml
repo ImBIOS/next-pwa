@@ -53,11 +53,11 @@ importers:
         specifier: 13.4.3
         version: 13.4.3(react-dom@18.2.0)(react@18.2.0)
       nextra:
-        specifier: 2.6.0
-        version: 2.6.0(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 2.6.1
+        version: 2.6.1(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
       nextra-theme-docs:
-        specifier: 2.6.0
-        version: 2.6.0(next@13.4.3)(nextra@2.6.0)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 2.6.1
+        version: 2.6.1(next@13.4.3)(nextra@2.6.1)(react-dom@18.2.0)(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -104,7 +104,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -157,7 +157,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -188,7 +188,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -213,7 +213,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -406,7 +406,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       eslint:
         specifier: 8.30.0
         version: 8.30.0
@@ -433,7 +433,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.84.0)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -472,10 +472,10 @@ importers:
     dependencies:
       babel-loader:
         specifier: 8.3.0
-        version: 8.3.0(@babel/core@7.21.5)(webpack@5.83.1)
+        version: 8.3.0(@babel/core@7.21.5)(webpack@5.84.0)
       clean-webpack-plugin:
         specifier: 4.0.0
-        version: 4.0.0(webpack@5.83.1)
+        version: 4.0.0(webpack@5.84.0)
       globby:
         specifier: 11.0.4
         version: 11.0.4
@@ -484,17 +484,17 @@ importers:
         version: 9.0.0(eslint@8.41.0)(react-dom@16.14.0)(react@16.14.0)(typescript@4.9.5)
       terser-webpack-plugin:
         specifier: 5.3.9
-        version: 5.3.9(webpack@5.83.1)
+        version: 5.3.9(webpack@5.84.0)
       workbox-webpack-plugin:
         specifier: 6.5.4
-        version: 6.5.4(webpack@5.83.1)
+        version: 6.5.4(webpack@5.84.0)
       workbox-window:
         specifier: 6.5.4
         version: 6.5.4
     devDependencies:
       webpack:
-        specifier: 5.83.1
-        version: 5.83.1
+        specifier: 5.84.0
+        version: 5.84.0
 
 packages:
 
@@ -3906,8 +3906,8 @@ packages:
       acorn: 6.4.2
     dev: false
 
-  /acorn-import-assertions@1.8.0(acorn@8.8.0):
-    resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+  /acorn-import-assertions@1.9.0(acorn@8.8.0):
+    resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -4371,7 +4371,7 @@ packages:
       webpack: 4.32.2
     dev: false
 
-  /babel-loader@8.2.5(@babel/core@7.21.5)(webpack@5.83.1):
+  /babel-loader@8.2.5(@babel/core@7.21.5)(webpack@5.84.0):
     resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -4383,10 +4383,10 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.83.1
+      webpack: 5.84.0
     dev: false
 
-  /babel-loader@8.3.0(@babel/core@7.21.5)(webpack@5.83.1):
+  /babel-loader@8.3.0(@babel/core@7.21.5)(webpack@5.84.0):
     resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -4398,7 +4398,7 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.83.1
+      webpack: 5.84.0
     dev: false
 
   /babel-plugin-dynamic-import-node@2.3.3:
@@ -4713,7 +4713,7 @@ packages:
       chownr: 1.1.4
       figgy-pudding: 3.5.2
       glob: 7.2.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       infer-owner: 1.0.4
       lru-cache: 5.1.1
       mississippi: 3.0.0
@@ -4905,14 +4905,14 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /clean-webpack-plugin@4.0.0(webpack@5.83.1):
+  /clean-webpack-plugin@4.0.0(webpack@5.84.0):
     resolution: {integrity: sha512-WuWE1nyTNAyW5T7oNyys2EN0cfP2fdRxhxnIQWiAp0bMabPdHhoGxM8A6YL2GhqwgrPnnaemVE7nv5XJ2Fhh2w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: '>=4.0.0 <6.0.0'
     dependencies:
       del: 4.1.1
-      webpack: 5.83.1
+      webpack: 5.84.0
     dev: false
 
   /cli-cursor@3.1.0:
@@ -5725,7 +5725,7 @@ packages:
     resolution: {integrity: sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       memory-fs: 0.5.0
       tapable: 1.1.3
     dev: false
@@ -5737,11 +5737,11 @@ packages:
       graceful-fs: 4.2.10
       tapable: 2.2.1
 
-  /enhanced-resolve@5.14.0:
-    resolution: {integrity: sha512-+DCows0XNwLDcUhbFJPdlQEVnT2zXlCv7hPxemTz86/O+B/hCQ+mb7ydkPKiflpVraqLPCAfu7lDy+hBXueojw==}
+  /enhanced-resolve@5.14.1:
+    resolution: {integrity: sha512-Vklwq2vDKtl0y/vtwjSesgJ5MYS7Etuk5txS8VdKL4AOS1aUlD96zqIfsOSLQsdv3xgMRbtkWM8eG9XDfKUPow==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
 
   /enquirer@2.3.6:
@@ -6903,7 +6903,7 @@ packages:
     resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
     engines: {node: '>=14.14'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -6912,7 +6912,7 @@ packages:
     resolution: {integrity: sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 4.0.0
       universalify: 0.1.2
     dev: true
@@ -6921,7 +6921,7 @@ packages:
     resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 4.0.0
       universalify: 0.1.2
     dev: true
@@ -6931,7 +6931,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       at-least-node: 1.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: false
@@ -6939,7 +6939,7 @@ packages:
   /fs-write-stream-atomic@1.0.10:
     resolution: {integrity: sha512-gehEzmPn2nAwr39eay+x3X34Ra+M2QlVUTLhkXPjWdeO8RF9kszk116avgBJM3ZyNHgHXBNx+VmPaFC36k0PzA==}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       iferr: 0.1.5
       imurmurhash: 0.1.4
       readable-stream: 2.3.8
@@ -7207,6 +7207,9 @@ packages:
 
   /graceful-fs@4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
+
+  /graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
   /graceful-readlink@1.0.1:
     resolution: {integrity: sha512-8tLu60LgxF6XpdbK8OW3FA+IfTNBn1ZHGHKF4KQbEeSkajYw5PlYJcKluntgegDPTg8UkHjpet1T82vk6TQ68w==}
@@ -8197,7 +8200,7 @@ packages:
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /jsonfile@6.1.0:
@@ -8205,7 +8208,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
 
   /jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
@@ -8364,7 +8367,7 @@ packages:
     resolution: {integrity: sha512-3p6ZOGNbiX4CdvEd1VcE6yi78UrGNpjHO33noGwHCnT/o2fyllJDepsm8+mFFv/DvtwFHht5HIHSyOy5a+ChVQ==}
     engines: {node: '>=4'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       parse-json: 2.2.0
       pify: 2.3.0
       strip-bom: 3.0.0
@@ -8374,7 +8377,7 @@ packages:
     resolution: {integrity: sha512-OfCBkGEw4nN6JLtgRidPX6QxjBQGQf72q3si2uvqyFEMbycSFFHwAZeXx6cJgFM9wmLrf9zBwCP3Ivqa+LLZPw==}
     engines: {node: '>=6'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       js-yaml: 3.14.1
       pify: 4.0.1
       strip-bom: 3.0.0
@@ -9709,11 +9712,11 @@ packages:
       - webpack-command
     dev: false
 
-  /nextra-theme-docs@2.6.0(next@13.4.3)(nextra@2.6.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/baIEzrBDjWD60/6l+mxUND0ZAjF27uRIUWP5QRWb01TQDA8Nqy8a/ANYM0a3bx4RgL/YBt47D0aWu/beWL1Fg==}
+  /nextra-theme-docs@2.6.1(next@13.4.3)(nextra@2.6.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-25Va2D5bzFRIE7uIZ75QfmvsdurXI+xzoWBNMQTnG+ONv9yiQSWRYjfw/Yep1OXF6ahDaaNqbCb8HmRoX7sqRg==}
     peerDependencies:
       next: '>=9.5.3'
-      nextra: 2.6.0
+      nextra: 2.6.1
       react: '>=16.13.1'
       react-dom: '>=16.13.1'
     dependencies:
@@ -9728,15 +9731,15 @@ packages:
       next: 13.4.3(react-dom@18.2.0)(react@18.2.0)
       next-seo: 6.0.0(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
       next-themes: 0.2.1(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
-      nextra: 2.6.0(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
+      nextra: 2.6.1(next@13.4.3)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       scroll-into-view-if-needed: 3.0.10
       zod: 3.21.4
     dev: false
 
-  /nextra@2.6.0(next@13.4.3)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-yLYcjQWBfzlUUuf7q8M5DXIpNId19RB5SyrpjcNB/KvZ1S2CQpf5cXmpRzKGl015NI3MRAX+z7pMR2qiU3HtwA==}
+  /nextra@2.6.1(next@13.4.3)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-5NN+aTFzW17/42AWp3qAvBTlgZvSQVpHOUb2MdHI6gnslpjik6z7DS1gZJ9zJ/I8veVxdLhdE70TfksAZ9tgxQ==}
     engines: {node: '>=16'}
     peerDependencies:
       next: '>=9.5.3'
@@ -9748,7 +9751,7 @@ packages:
       '@napi-rs/simple-git': 0.1.8
       clsx: 1.2.1
       github-slugger: 2.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       gray-matter: 4.0.3
       katex: 0.16.7
       lodash.get: 4.4.2
@@ -10729,7 +10732,7 @@ packages:
     resolution: {integrity: sha512-VIMnQi/Z4HT2Fxuwg5KrY174U1VdUIASQVWXXyqtNRtxSr9IYkn1rsI6Tb6HsrHCmB7gVpNwX6JxPTHcH6IoTA==}
     engines: {node: '>=6'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       js-yaml: 3.14.1
       pify: 4.0.1
       strip-bom: 3.0.0
@@ -10767,7 +10770,7 @@ packages:
     resolution: {integrity: sha512-1JU/8q+VgFZyxwrJ+SVIOsh+KywWGpds3NTqikiKpDMZWScmAYyKIgqkO+ARvNWJfXeXR1zxz7aHF4u4CyH6vQ==}
     engines: {node: '>=0.10'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       micromatch: 3.1.10
       readable-stream: 2.3.8
     transitivePeerDependencies:
@@ -11994,7 +11997,7 @@ packages:
       worker-farm: 1.7.0
     dev: false
 
-  /terser-webpack-plugin@5.3.9(webpack@5.83.1):
+  /terser-webpack-plugin@5.3.9(webpack@5.84.0):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -12015,7 +12018,7 @@ packages:
       schema-utils: 3.1.2
       serialize-javascript: 6.0.1
       terser: 5.17.1
-      webpack: 5.83.1
+      webpack: 5.84.0
 
   /terser@4.0.0:
     resolution: {integrity: sha512-dOapGTU0hETFl1tCo4t56FN+2jffoKyER9qBGoUFyZ6y7WLoKT0bF+lAYi6B6YsILcGF3q1C2FBh8QcKSCgkgA==}
@@ -12732,7 +12735,7 @@ packages:
   /watchpack@1.7.5:
     resolution: {integrity: sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       neo-async: 2.6.2
     optionalDependencies:
       chokidar: 3.5.3
@@ -12746,7 +12749,7 @@ packages:
     engines: {node: '>=6.11.5'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       neo-async: 2.6.2
     dev: false
 
@@ -12755,7 +12758,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
 
   /wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
@@ -12885,8 +12888,8 @@ packages:
       - supports-color
     dev: false
 
-  /webpack@5.83.1:
-    resolution: {integrity: sha512-TNsG9jDScbNuB+Lb/3+vYolPplCS3bbEaJf+Bj0Gw4DhP3ioAflBb1flcRt9zsWITyvOhM96wMQNRWlSX52DgA==}
+  /webpack@5.84.0:
+    resolution: {integrity: sha512-XezNK3kwJq6IyeoZmZ1uEqQs+42nTqIi4jYM/YjLwaJedUC1N3bwnCC0+UcnHJPfqWX0kGrQnMIvZZyWYaIZrA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -12901,22 +12904,22 @@ packages:
       '@webassemblyjs/wasm-edit': 1.11.5
       '@webassemblyjs/wasm-parser': 1.11.5
       acorn: 8.8.0
-      acorn-import-assertions: 1.8.0(acorn@8.8.0)
+      acorn-import-assertions: 1.9.0(acorn@8.8.0)
       browserslist: 4.21.5
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.14.0
+      enhanced-resolve: 5.14.1
       es-module-lexer: 1.2.1
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       json-parse-even-better-errors: 2.3.1
       loader-runner: 4.2.0
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 3.1.2
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(webpack@5.83.1)
+      terser-webpack-plugin: 5.3.9(webpack@5.84.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -13135,7 +13138,7 @@ packages:
     resolution: {integrity: sha512-vo2RQo7DILVRoH5LjGqw3nphavEjK4Qk+FenXeUsknKn14eCNedHOXWbmnvP4ipKhlE35pvJ4yl4YYf6YsJArA==}
     dev: false
 
-  /workbox-webpack-plugin@6.5.4(webpack@5.83.1):
+  /workbox-webpack-plugin@6.5.4(webpack@5.84.0):
     resolution: {integrity: sha512-LmWm/zoaahe0EGmMTrSLUi+BjyR3cdGEfU3fS6PN1zKFYbqAKuQ+Oy/27e4VSXsyIwAw8+QDfk1XHNGtZu9nQg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -13144,7 +13147,7 @@ packages:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.83.1
+      webpack: 5.84.0
       webpack-sources: 1.4.3
       workbox-build: 6.5.4
     transitivePeerDependencies:
