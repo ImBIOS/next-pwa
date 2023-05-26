@@ -8,8 +8,8 @@
     "clean-webpack-plugin": "4.0.0",
     "globby": "11.0.4",
     "terser-webpack-plugin": "5.3.9",
-    "workbox-webpack-plugin": "6.5.4",
-    "workbox-window": "6.5.4"
+    "workbox-webpack-plugin": "6.6.0",
+    "workbox-window": "6.6.0"
   },
   "devDependencies": {
     "webpack": "5.84.1"
