@@ -8,8 +8,8 @@
     "clean-webpack-plugin": "4.0.0",
     "globby": "11.0.4",
     "terser-webpack-plugin": "5.3.9",
-    "workbox-webpack-plugin": "6.6.0",
-    "workbox-window": "6.6.0"
+    "workbox-webpack-plugin": "6.6.1",
+    "workbox-window": "6.6.1"
   },
   "devDependencies": {
     "webpack": "5.84.1"
@@ -27,6 +27,6 @@
     "next": ">=9.0.0"
   },
   "resolutions": {
-    "@typescript-eslint/eslint-plugin": "5.59.7"
+    "@typescript-eslint/eslint-plugin": "5.59.8"
   }
 }
