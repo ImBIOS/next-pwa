@@ -6,7 +6,7 @@
   "dependencies": {
     "babel-loader": "8.3.0",
     "clean-webpack-plugin": "4.0.0",
-    "globby": "11.0.4",
+    "globby": "11.1.0",
     "terser-webpack-plugin": "5.3.9",
     "workbox-webpack-plugin": "6.6.1",
     "workbox-window": "6.6.1"
