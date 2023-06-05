@@ -12,7 +12,7 @@
     "workbox-window": "6.6.1"
   },
   "devDependencies": {
-    "webpack": "5.85.0"
+    "webpack": "5.85.1"
   },
   "keywords": [
     "nextjs",
@@ -27,6 +27,6 @@
     "next": ">=9.0.0"
   },
   "resolutions": {
-    "@typescript-eslint/eslint-plugin": "5.59.8"
+    "@typescript-eslint/eslint-plugin": "5.59.9"
   }
 }

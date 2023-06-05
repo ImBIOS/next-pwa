@@ -108,7 +108,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -161,7 +161,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -192,7 +192,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -217,7 +217,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -410,7 +410,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       eslint:
         specifier: 8.30.0
         version: 8.30.0
@@ -437,7 +437,7 @@ importers:
         version: link:../../packages/next-pwa
       babel-loader:
         specifier: 8.2.5
-        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.2.5(@babel/core@7.21.5)(webpack@5.85.1)
       next:
         specifier: 13.3.2-canary.7
         version: 13.3.2-canary.7(@babel/core@7.21.5)(react-dom@18.2.0)(react@18.2.0)
@@ -476,10 +476,10 @@ importers:
     dependencies:
       babel-loader:
         specifier: 8.3.0
-        version: 8.3.0(@babel/core@7.21.5)(webpack@5.85.0)
+        version: 8.3.0(@babel/core@7.21.5)(webpack@5.85.1)
       clean-webpack-plugin:
         specifier: 4.0.0
-        version: 4.0.0(webpack@5.85.0)
+        version: 4.0.0(webpack@5.85.1)
       globby:
         specifier: 11.1.0
         version: 11.1.0
@@ -488,17 +488,17 @@ importers:
         version: 9.0.0(eslint@8.42.0)(react-dom@16.14.0)(react@16.14.0)(typescript@4.9.5)
       terser-webpack-plugin:
         specifier: 5.3.9
-        version: 5.3.9(webpack@5.85.0)
+        version: 5.3.9(webpack@5.85.1)
       workbox-webpack-plugin:
         specifier: 6.6.1
-        version: 6.6.1(webpack@5.85.0)
+        version: 6.6.1(webpack@5.85.1)
       workbox-window:
         specifier: 6.6.1
         version: 6.6.1
     devDependencies:
       webpack:
-        specifier: 5.85.0
-        version: 5.85.0
+        specifier: 5.85.1
+        version: 5.85.1
 
 packages:
 
@@ -4378,7 +4378,7 @@ packages:
       webpack: 4.32.2
     dev: false
 
-  /babel-loader@8.2.5(@babel/core@7.21.5)(webpack@5.85.0):
+  /babel-loader@8.2.5(@babel/core@7.21.5)(webpack@5.85.1):
     resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -4390,10 +4390,10 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.85.0
+      webpack: 5.85.1
     dev: false
 
-  /babel-loader@8.3.0(@babel/core@7.21.5)(webpack@5.85.0):
+  /babel-loader@8.3.0(@babel/core@7.21.5)(webpack@5.85.1):
     resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -4405,7 +4405,7 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.85.0
+      webpack: 5.85.1
     dev: false
 
   /babel-plugin-dynamic-import-node@2.3.3:
@@ -4912,14 +4912,14 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /clean-webpack-plugin@4.0.0(webpack@5.85.0):
+  /clean-webpack-plugin@4.0.0(webpack@5.85.1):
     resolution: {integrity: sha512-WuWE1nyTNAyW5T7oNyys2EN0cfP2fdRxhxnIQWiAp0bMabPdHhoGxM8A6YL2GhqwgrPnnaemVE7nv5XJ2Fhh2w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: '>=4.0.0 <6.0.0'
     dependencies:
       del: 4.1.1
-      webpack: 5.85.0
+      webpack: 5.85.1
     dev: false
 
   /cli-cursor@3.1.0:
@@ -6203,7 +6203,7 @@ packages:
       eslint: 8.30.0
       eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 3.5.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5)(eslint@8.30.0)
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.42.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.30.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.30.0)
       eslint-plugin-react: 7.32.2(eslint@8.30.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.30.0)
@@ -6300,7 +6300,7 @@ packages:
       enhanced-resolve: 5.13.0
       eslint: 8.30.0
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@3.5.5)(eslint@8.30.0)
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.42.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.30.0)
       get-tsconfig: 4.5.0
       globby: 13.1.4
       is-core-module: 2.12.0
@@ -6391,6 +6391,38 @@ packages:
       eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 3.5.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5)(eslint@8.42.0)
     transitivePeerDependencies:
+      - supports-color
+
+  /eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.30.0):
+    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
+    engines: {node: '>=4'}
+    peerDependencies:
+      '@typescript-eslint/parser': '*'
+      eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
+    peerDependenciesMeta:
+      '@typescript-eslint/parser':
+        optional: true
+    dependencies:
+      '@typescript-eslint/parser': 5.59.1(eslint@8.30.0)(typescript@4.9.5)
+      array-includes: 3.1.6
+      array.prototype.flat: 1.3.1
+      array.prototype.flatmap: 1.3.1
+      debug: 3.2.7
+      doctrine: 2.1.0
+      eslint: 8.30.0
+      eslint-import-resolver-node: 0.3.7
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@3.5.5)(eslint@8.30.0)
+      has: 1.0.3
+      is-core-module: 2.12.0
+      is-glob: 4.0.3
+      minimatch: 3.1.2
+      object.values: 1.1.6
+      resolve: 1.22.2
+      semver: 6.3.0
+      tsconfig-paths: 3.14.2
+    transitivePeerDependencies:
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
       - supports-color
 
   /eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.59.1)(eslint-import-resolver-typescript@3.5.5)(eslint@8.42.0):
@@ -12376,7 +12408,7 @@ packages:
       worker-farm: 1.7.0
     dev: false
 
-  /terser-webpack-plugin@5.3.9(webpack@5.85.0):
+  /terser-webpack-plugin@5.3.9(webpack@5.85.1):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -12397,7 +12429,7 @@ packages:
       schema-utils: 3.1.2
       serialize-javascript: 6.0.1
       terser: 5.17.1
-      webpack: 5.85.0
+      webpack: 5.85.1
 
   /terser@4.0.0:
     resolution: {integrity: sha512-dOapGTU0hETFl1tCo4t56FN+2jffoKyER9qBGoUFyZ6y7WLoKT0bF+lAYi6B6YsILcGF3q1C2FBh8QcKSCgkgA==}
@@ -13281,8 +13313,8 @@ packages:
       - supports-color
     dev: false
 
-  /webpack@5.85.0:
-    resolution: {integrity: sha512-7gazTiYqwo5OSqwH1tigLDL2r3qDeP2dOKYgd+LlXpsUMqDTklg6tOghexqky0/+6QY38kb/R/uRPUleuL43zg==}
+  /webpack@5.85.1:
+    resolution: {integrity: sha512-xTb7MRf4LY8Z5rzn7aIx4TDrwYJrjcHnIfU1TqtyZOoObyuGSpAUwIvVuqq5wPnv7WEgQr8UvO1q/dgoGG4HjA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -13312,7 +13344,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.2
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(webpack@5.85.0)
+      terser-webpack-plugin: 5.3.9(webpack@5.85.1)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -13531,7 +13563,7 @@ packages:
     resolution: {integrity: sha512-R7whwjvU2abHH/lR6kQTTXLHDFU2izht9kJOvBRYK65FbwutT4VvnUAJIgHvfWZ/fokrOPhfoWYoPCMpSgUKHQ==}
     dev: false
 
-  /workbox-webpack-plugin@6.6.1(webpack@5.85.0):
+  /workbox-webpack-plugin@6.6.1(webpack@5.85.1):
     resolution: {integrity: sha512-zpZ+ExFj9NmiI66cFEApyjk7hGsfJ1YMOaLXGXBoZf0v7Iu6hL0ZBe+83mnDq3YYWAfA3fnyFejritjOHkFcrA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -13540,7 +13572,7 @@ packages:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.85.0
+      webpack: 5.85.1
       webpack-sources: 1.4.3
       workbox-build: 6.6.1
     transitivePeerDependencies:
