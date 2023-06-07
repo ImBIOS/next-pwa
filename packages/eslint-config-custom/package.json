@@ -6,7 +6,7 @@
   "dependencies": {
     "eslint-config-next": "13.4.4",
     "eslint-config-prettier": "8.8.0",
-    "eslint-config-turbo": "1.10.1"
+    "eslint-config-turbo": "1.10.2"
   },
   "private": true
 }
