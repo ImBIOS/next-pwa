@@ -10,13 +10,13 @@
     "concurrently": "8.2.0",
     "config-prettier": "workspace:*",
     "dotenv-cli": "7.2.1",
-    "eslint": "8.43.0",
+    "eslint": "8.44.0",
     "eslint-config-custom": "workspace:*",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
     "prettier": "2.8.8",
     "syncpack": "9.8.6",
-    "turbo": "1.10.6"
+    "turbo": "1.10.7"
   },
   "engines": {
     "pnpm": "8",
