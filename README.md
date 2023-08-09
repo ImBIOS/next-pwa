@@ -1,5 +1,7 @@
 # Zero Config [PWA](https://web.dev/learn/pwa/) Plugin for [Next.js](https://nextjs.org/) with appDir support
 
+> Archived, please use github.com/ducanhgh/next-pwa/, there are already active fork of next-pwa out there
+
 This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/) and other good stuff.
 
 ![size](https://img.shields.io/bundlephobia/minzip/@imbios/next-pwa.svg) ![dependencies](https://img.shields.io/librariesio/release/npm/@imbios/next-pwa) ![downloads](https://img.shields.io/npm/dw/@imbios/next-pwa.svg) ![license](https://img.shields.io/npm/l/@imbios/next-pwa.svg)
